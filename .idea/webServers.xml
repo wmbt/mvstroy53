@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bbb92555-5f1d-41ce-86e8-1c96b1b952d9" name="vps8674" url="http://mvstroy53.ru">
+        <fileTransfer host="vps8674.hyperhost.name" port="22" rootFolder="/srv/www/mvstroy53" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

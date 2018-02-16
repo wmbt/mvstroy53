@@ -1,0 +1,12 @@
+bind = "127.0.0.1:8000"
+backlog = 1024
+workers = 4
+worker_class = "sync"
+max_requests = 0
+timeout = 30
+no_sendfile = True
+pid = "/run/gunicorn/pid"
+worker_tmp_dir = "/run/gunicorn"
+access_logfile = "/var/log/gunicorn/access.log"
+error_logfile = "/var/log/gunicorn/error.log"
+log_level = "info"
