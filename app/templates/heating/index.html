@@ -1,10 +1,176 @@
 {% extends "layout.html" %}
-{% block title %}static/static/images{% endblock %}
+{% block title %}Отопление{% endblock %}
 {% block page_content %}
 
-    <section id="portfolio">
+    <section id="heating" class="service-item">
+    <div class="container">
+      <div class="center wow fadeInDown">
+        <h2>Отопление</h2>
+        <p class="lead">
+            Если Вы решили монтировать отопление, то первое, с чего нужно начинать,
+            это определится,<br/> что будет являтся источником тепла
+            (Газ, электроэнергия, дизельное или твёрдое топливо (дрова, уголь).<br/>
+            Выбор сделан – ПРЕКРАСНО! Двигаемся дальше.Выбераем котёл.<br/>
+            ВАЖНО!!! Прежде чем купить котёл выясните, сможет ли продавец обеспечить его ремонт
+            и обслуживание.
+        </p>
+         <a class="btn btn-primary readmore" href="#portfolio">Посмотреть наши работы <i class="fa fa-angle-right"></i></a>
+          <h2 class="text-center"><small>По назначению все котлы  подразделяются на:</small></h2>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 col-md-6">
+          <div class="media services-wrap wow fadeInDown">
+            <div class="pull-left">
+              <img class="img-responsive" src="static/images/heating/one_contour.png">
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading">ОДНОКОНТУРНЫЕ</h3>
+              <p>Применяются только для обогрева помещений.
+                  Если дополнительно требуется нагрев воды, то к
+                  установке подключают бойлер косвенного нагрева
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-8 col-md-6">
+          <div class="media services-wrap wow fadeInDown">
+            <div class="pull-left">
+              <img class="img-responsive" src="static/images/heating/two_contours.png">
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading">ДВУХКОНТУРНЫЕ</h3>
+              <p>Используются и для отопления, <br/>и для ГВС, (Горячее ВодоСнабжение)<br/><br/></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.row-->
+    </div>
+    <!--/.container-->
+  </section>
+  <!--/#services-->
+  <section id="feature" class="transparent-bg" style="padding-bottom: 0;">
+    <div class="container">
+       <div class="clients-area center wow fadeInDown">
+        <h2>Типы отопительных котлов</h2>
+        <p class="lead">По виду используемого топлива котлы отопления делятся на:</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 wow fadeInDown">
+          <div class="clients-comments text-center">
+            <img src="static/images/heating/gas.png" class="img-circle" alt="">
+            <h3><b>Газовые котлы</b></h3>
+            <h4 class="text-justify">
+                В качестве топлива в них используется природный или сжиженный газ,
+                который при сжигании нагревает теплоноситель.
+            </h4>
+              <h4 class="text-justify">
+                  Газовые котлы отличаются по типу тяги.
+                  Модели, в которых подача воздуха для стабилизации горения происходит прямо
+                  из котельной относятся к котлам с естественной тягой. В моделях с принудительной
+                  тягой воздух подается с улицы за счет встроенного вентилятора и системы воздуховодов.
+            </h4>
+          </div>
+        </div>
+        <div class="col-md-4 wow fadeInDown">
+          <div class="clients-comments text-center">
+            <img src="static/images/heating/electric.png" class="img-circle" alt="">
+            <h3><b>Электрические котлы</b></h3>
+             <h4 class="text-justify">
+                Электрические котлы безопасны как с технической,
+                 так и с экологической точки зрения, обладают максимально
+                 возможным КПД (до 96-98 %), компактными габаритными размерами,
+                 отсутствием необходимости в монтаже дымохода.
+            </h4>
+              <h4 class="text-justify">
+                  Прежде чем купить электрический котел для отопления частного дома,
+                  необходимо определиться, достаточно ли подведённой и разрешённой к
+                  использованию мощности (обычно это до 15 Квт.) для отопления,
+                  водоснабжения и нагрева воды, а так же освещения и работы бытовых
+                  приборов (кухонная плита, стиральная машина и пр.)
+            </h4>
+          </div>
+        </div>
+        <div class="col-md-4 wow fadeInDown">
+          <div class="clients-comments text-center">
+            <img src="static/images/heating/solid.png" class="img-circle" alt="">
+            <h3><b>Твердотопливные котлы</b></h3>
+            <h4 class="text-justify">
+                Классические твердотопливные котлы отличаются невысоким КПД (70%),
+                поскольку значительная часть тепловой энергии теряется за счет неполного
+                сгорания газов.
+            </h4>
+              <h4 class="text-justify">
+                  В конструкции пиролизных котлов предусмотрены две топочные камеры.
+                  Одна предназначена для сжигания топлива, а во второй догорают угарные газы.
+                  В таких моделях топливо сжигается более эффективно чем в классических,
+                  поэтому КПД достигает 90-92%.
+            </h4>
+              <h4 class="text-justify">
+                  В котлах длительного горения интенсивность горения топлива зависит от
+                  объёма, температуры скорости подачи воздуха в топку а так же автоматике,
+                  поднимающей корзину с дровами.  Благодаря длительному горению
+                  закладку топлива  производят  реже.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="container">
+       <div class="clients-area center wow fadeInDown" style="padding-top: 0;">
+        <h2>Виды отопления</h2>
+        <p class="lead">
+            Самым распространенным на данный момент,  является водяное отопление,
+            где в качестве теплоносителя используется вода.
+            Иногда, когда это необходимо, используют специальный незамарзающий теплоноситель
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 wow fadeInDown">
+          <div class="clients-comments text-center">
+            <img src="static/images/heating/radiator.png" class="img-circle" alt="">
+            <h3><b>Радиаторное отопление</b></h3>
+            <h4 class="text-justify">
+                Традиционный и всем знакомый вид обогрева.
+                Отопительный контур состоит из трубопровода и радиаторов,
+                как правило, расположенных под окнами.
+            </h4>
+              <h4 class="text-justify">
+                Традиционный и всем знакомый вид обогрева.
+                Отопительный контур состоит из трубопровода и радиаторов,
+                как правило, расположенных под окнами.
+            </h4>
+          </div>
+        </div>
+        <div class="col-md-6 wow fadeInDown">
+          <div class="clients-comments text-center">
+            <img src="static/images/heating/tp.png" class="img-circle" alt="">
+            <h3><b>Cистема «теплый пол»</b></h3>
+             <h4 class="text-justify">
+                Монтаж разводки системы отопления осуществляют на полу с помощью полимерных гибких труб,
+                 уложенных одним из способов (в идеале так называемая «улитка»)
+                 На них укладывается чистовое напольное покрытие, выполняющее роль отопительного прибора.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.container-->
+  </section>
+
+
+
+    <section id="portfolio" style="margin-top: 0; padding-top: 0;">
         <div class="container">
+           <a name="portfolio" class="anchor"> </a>
+
             <div class="center">
+
                 <h2>Наши работы</h2>
                 <p class="lead">Заказать комплексный профессиональный монтаж отопления</br>
                     или модернизацию старых сантехнических систем можно позвонив по телефону +7 (911) 626-89-65
@@ -12,7 +178,7 @@
             </div>
 
             {% include "photosgrid.html" %}
-        </div>
+           </div>
     </section>
 
 {% endblock %}

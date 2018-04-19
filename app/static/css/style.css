@@ -1858,8 +1858,20 @@ ul.sidebar-gallery {
   margin-left: 15px;
 }
 
+section#heating{
+  background: #000 url(../images/heating/bg_heating.jpg);
+  background-size: cover;
+  margin-top:70px;
+}
+section#heating .lead,
+section#heating h2,
+section#heating small{
+  color: #fff;
+}
 
-
-
-
-
+:target:before {
+content:"";
+display:block;
+height:100px; /* fixed header height*/
+margin:-100px 0 0; /* negative fixed header height */
+}
