@@ -1869,6 +1869,17 @@ section#heating small{
   color: #fff;
 }
 
+section#watersupply{
+  background: #000 url(../images/watersupply/bg_watersupply.jpg);
+  background-size: cover;
+  margin-top:70px;
+}
+section#watersupply .lead,
+section#watersupply h2,
+section#watersupply small{
+  color: #fff;
+}
+
 :target:before {
 content:"";
 display:block;
