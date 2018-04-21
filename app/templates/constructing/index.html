@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block title %}Строительство{% endblock %}
+{% block page_content %}
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="center">
+                <h2>Наши работы</h2>
+                <p class="lead">Заказать проектирование, монтаж и наладку вентиляционной системы можно по
+                    телефону +7 (911) 626-89-65</p>
+            </div>
+
+            {% include "photosgrid.html" %}
+
+        </div>
+    </section>
+
+{% endblock %}

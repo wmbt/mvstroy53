@@ -1880,9 +1880,39 @@ section#watersupply small{
   color: #fff;
 }
 
+section#electric{
+  background: #000 url(../images/electric/bg_electric.png);
+  background-size: cover;
+  margin-top:70px;
+}
+section#electric .lead,
+section#electric h2,
+section#electric small{
+  color: #fff;
+}
+
+section#ventilation{
+  background: #000 url(../images/ventilation/bg_ventilation.png);
+  background-size: cover;
+  margin-top:70px;
+}
+section#ventilation .lead,
+section#ventilation h2,
+section#ventilation small{
+  color: #fff;
+}
+
+
 :target:before {
 content:"";
 display:block;
 height:100px; /* fixed header height*/
 margin:-100px 0 0; /* negative fixed header height */
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
