@@ -2,12 +2,95 @@
 {% block title %}Строительство{% endblock %}
 {% block page_content %}
 
-    <section id="portfolio">
+    <section id="constructing" class="service-item">
+    <div class="container">
+      <div class="center wow fadeInDown">
+        <h2>Строительство</h2>
+        <p class="lead">
+            Строительство дома - серьёзные финансовые инвестиции,
+            за которые хочется получить достойный результат.
+            И на пути от покупки участка, проектирования и  строительства,
+            до получения результата в виде готового к заселению дома вас могут
+            поджидать всевозможные «подводные камни» в виде  архитектора,
+            желающего навязать вам что-нибудь экзотическое (это не плохо, когда у вас большой
+            запас денежных средств, хотя стоит признать, что в наше время это редкость).
+            Недобросовестные строители, некачественные материалы и дорогие,
+            но малоэффективные технологии.
+        </p>
+         <a class="btn btn-primary readmore" href="#portfolio">Посмотреть наши работы <i class="fa fa-angle-right"></i></a>
+      </div>
+      <!--/.row-->
+    </div>
+    <!--/.container-->
+  </section>
+
+     <section id="feature" class="transparent-bg" style="padding-bottom: 0;">
+    <div class="container">
+       <div class="clients-area center wow fadeInDown">
+        <h2>На что следует обратить внимание?</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+            <div class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="media">
+                <div class="pull-left">
+                  <a href="#"><img class="media-object" src="static/images/constructing/project.jpg" alt=""></a>
+                </div>
+                <div class="media-body">
+                  <h4>ИНДИВИДУАЛЬНЫЙ ПРОЕКТ</h4>
+                </div>
+              </div>
+              <!--/.media -->
+              <p>
+                  Большинство полагает, что стройка начинается с выбора
+                  первого понравившегося типового проекта. Практика показывает,
+                  что это глубокое заблуждение – необходим индивидуальный проект,
+                  учитывающий именно ваши требования.
+              </p>
+            </div>
+          </div>
+        </div>
+          <!--/.col-lg-4 -->
+
+        <div class="row">
+          <div class="col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2 ">
+            <div style="margin-top: 20px;" class="single-profile-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="media">
+                <div class="pull-left">
+                  <a href="#"><img class="media-object" src="static/images/constructing/communication.jpg" alt=""></a>
+                </div>
+                <div class="media-body">
+                  <h4>ИНЖЕНЕРНЫЕ КОММУНИКАЦИИ</h4>
+                </div>
+              </div>
+              <!--/.media -->
+              <p>
+                  Разработку проекта следует проводить совместно со специалистами, которые будут
+                  монтировать инженерные коммуникации. Иначе может получится так, что помещение,
+                  где будет расположен котёл не будет соответствовать положению СНиП,
+                  или туалет на 2 этаже окажется над гостинной комнатой.
+              </p>
+            </div>
+          </div>
+          <!--/.col-lg-4 -->
+        </div>
+
+        <div class="clients-area center wow fadeInDown">
+            <p class="lead">Можно долго описывать всевозможные ошибки при строительстве, но зачем? <br/>
+                Подобного материала в интернете навалом. </p>
+      </div>
+
+    </div>
+  </section>
+
+    <section id="portfolio"  style="margin-top: 0; padding-top: 0;">
         <div class="container">
+            <a name="portfolio" class="anchor"> </a>
             <div class="center">
                 <h2>Наши работы</h2>
-                <p class="lead">Заказать проектирование, монтаж и наладку вентиляционной системы можно по
-                    телефону +7 (911) 626-89-65</p>
+                <p class="lead">Если собираетесь построить дом (баню, беседку и пр.) обращайтесь. <br/>
+                    Высокое качество и конкурентные цены гарантированы.<br/>
+                    Звоните +7 (911) 626-89-65</p>
             </div>
 
             {% include "photosgrid.html" %}

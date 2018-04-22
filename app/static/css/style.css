@@ -1902,6 +1902,19 @@ section#ventilation small{
   color: #fff;
 }
 
+section#constructing{
+  background: #000 url(../images/constructing/bg_constructing.jpg);
+  background-size: cover;
+  margin-top:70px;
+}
+section#constructing .lead,
+section#constructing h2,
+section#constructing small{
+  color: #fff;
+}
+
+
+
 
 :target:before {
 content:"";
